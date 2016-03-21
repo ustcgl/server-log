@@ -18,6 +18,7 @@ public class ThreadProductLog implements Runnable{
 				log.info("info : case : "+caseNum+" 3-product log end ...");
 				log.debug("debug : case : "+caseNum+" 3-product log end ...");
 				System.out.println("stdout : case : "+caseNum+" 3-product log end ...");
+				log.error("error : case : "+caseNum+" 3-product log end ...");
 				
 			}catch(Exception e){
 				System.out.println("---------"+"exception");
